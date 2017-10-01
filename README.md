@@ -1,1 +1,1 @@
-# JavaProHomeWorks
+# JavaProHomeWork Lecture 1
