@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-@SaveTo(path = "E:\\JAVA\\Projects\\OOP\\src\\pro\\lecture_1\\textContainer")
+@SaveTo(path = "pro\\lecture_1\\textContainer")
 public class TextContainer {
     String text = "It`s a TextContainer";
 
