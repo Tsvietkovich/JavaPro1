@@ -73,8 +73,8 @@ public class SerelizationMapApp {
     public static void main(String[] args) throws IllegalAccessException, NoSuchFieldException, InstantiationException {
         Tester clas = new Tester(1,2,"3",true);
         Tester clas2 = null;
-        SerelizationMapApp.serialize(clas, "E:\\JAVA\\Projects\\OOP\\src\\pro\\lecture_1\\SerelizationMyApp\\file.txt");
-        clas2 = SerelizationMapApp.deserialize("E:\\JAVA\\Projects\\OOP\\src\\pro\\lecture_1\\SerelizationMyApp\\file.txt",clas.getClass());
+        SerelizationMapApp.serialize(clas, "SerelizationMyApp\\file.txt");
+        clas2 = SerelizationMapApp.deserialize("SerelizationMyApp\\file.txt",clas.getClass());
         System.out.println(clas2);
     }
 }
